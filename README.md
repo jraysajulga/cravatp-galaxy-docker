@@ -21,3 +21,5 @@ docker run -p 8080:80 jraysajulga/galaxy-cravatp-docker
 *This command retrieves the ***galaxy-cravatp-docker*** image and assigns it to your 8080 port.*
 
 3.) Wait a few moments for the image to load. Open ***http://localhost:8080***.
+
+![logo](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/gpcravatdocker-1.gif?raw=true)
