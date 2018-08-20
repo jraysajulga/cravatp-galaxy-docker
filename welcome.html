@@ -13,37 +13,33 @@ body{background-color:#EEEEFF;background-image:url(images/cloud.gif);background-
 <body>
 <div class="document">
 <div style="text-align: center; padding-top: 60px; background: white; height: 80px;">
-    <img style="margin: auto; width: 550px;" src="images/jetstream_text.png" />
+    <img style="float: left; margin: auto; width: 200px;" src="graphics/gpcravatdocker-1.gif" />
 </div>
     <div style="padding: 160px 120px">
         <div style="text-align:center">
             <b style="font-size:20px">SUPPORTING INFORMATION</b>
             <br></br>
-<p style="font-size:18px">“Bridging the Chromosome-Centric and Biology and Disease Human Proteome Projects:  Accessible and automated tools for interpreting biological and pathological impact of protein sequence variants detected via proteogenomics”</p>
-            <hr/>
+                <p style="font-size:18px">“Bridging the Chromosome-Centric and Biology and Disease Human Proteome Projects:  Accessible and automated tools for interpreting biological and pathological impact of protein sequence variants detected via proteogenomics”</p>
+                            <hr/>
 
-<b>Instructions for accessing demonstration data and workflow for proteogenomic-CRAVAT analysis on a publicly available Galaxy instance</b>
-<p> </p>
+                <b>Instructions for accessing demonstration data and workflow for proteogenomic-CRAVAT analysis on a publicly available Galaxy instance</b>
+                <p> </p>
 
-<ol style="text-align:left; line-height: 1.7em">
-<li>The Galaxy Jetstream instance requires that all users input an email address to access tools and workflows.  To register, perform the following steps:</li>
-<ol type="a">
-<li>Click on the  “Login or Register” tab and click on “Register”. Enter an email address, password and public name of choosing. [<b>NOTE:</b> Users who want to remain anonymous can enter and email in the form of guestX@galaxyp.org (where X is any number of your choosing), along with a password and public name of your choosing.  Also note that this instance is for demonstration purposes, and not for long-term use with large datasets]</li>
-<li>Once registered, click on the "User" tab and click on “Login” with your user credentials.</li>
-</ol>
-<li>The first step in the analysis is to import the required input datafiles.  For running any workflow, we need compatible inputs that the tools would use to produce a required output. To access the input for this demonstration, click on “Shared Data”→ “Histories”→ <b>“​Inputs_for_CRAVAT”</b>. Then, click on “Import history” to import all the input files.  The input file consists of a variant call format file (.VCF file), and proBED file. <i>For demo purposes all these datasets have been trimmed to contain only a small amount of data</i>. </li>
-<li>Once the files have been imported, these will show up as items in our active History. </li>
-<li>The goal of the workflow is to use the VCF and proBED file to create a CRAVAT output with coding variant annotation.   To access the analysis workflow, click on the "Shared Data" tab → “Workflows”. A list of published, validated workflows will appear. Select the dropdown arrow for the workflow <b>“CRAVAT_workflow​”</b> and click “Import”.</li>
-<li>The workflow will now show up in your “Workflows” folder within the Galaxy instance. This folder contains an archive of all the workflows you have imported.  To run this workflow on the imported input files in the active History, click on the dropdown menu next to the imported <b>“CRAVAT_workflow”</b> in your Workflow folder, and select “Run”.   </li>
-<li>The Workflow will now open in the main viewing pane. The Workflow automatically locates files of appropriate data type within the active History. <b>Select appropriate inputs from your History (Freebayes.vcf for the first input, and MCF7_proBed.bed for the second input) to run the workflow</b>.</li>
-<li>Click on “Run workflow” to start the analysis.  After starting the workflow, new items will appear in the History pane. Once completed, these items will be outputs from the tools that are used for the analysis.  Items in the History that are yellow are actively being processed; gray colored items are steps that are waiting; green colored items are those that have been completed successfully. If an item goes red, and error has occurred that the workflow must be correct and re-run. Hitting the “Refresh history” button in the History pane will update the status of the active History. Once all items have gone green, the workflow is complete.                    </li>
-<li>The CRAVAT output appears as an item in the active History (Item #7 titled “CRAVAT Results on data 1 and data 2”).  This History item is a collection of results consisting of four tabular outputs - “Gene”, “Variant”, “Noncoding”, “Error”.  This collection can be viewed by clicking on the single History item titled “CRAVAT Results on data 1 and data 2”.</li>
-<li>The user can click on any output item within the collection in Item #7 in the History to view it in the CRAVAT visualization on the Main viewing pane.  For example, click on the results item “Variants” which opens a menu of options within the item.  Next click on the “Visualize” icon (<img height=20 src="visualizer-icon.png" alt="visualizer icon"/>) and select CRAVAT. The viewer will now open CRAVAT visualizations in the main viewing pane.</li>
-</ol>
-
-
-
-
+                <ol style="text-align:left; line-height: 1.7em">
+                <li>The Galaxy Jetstream instance requires that all users input an email address to access tools and workflows.  To register, perform the following steps:</li>
+                <ol type="a">
+                <li>Click on the  “Login or Register” tab and click on “Register”. Enter an email address, password and public name of choosing. [<b>NOTE:</b> Users who want to remain anonymous can enter and email in the form of guestX@galaxyp.org (where X is any number of your choosing), along with a password and public name of your choosing.  Also note that this instance is for demonstration purposes, and not for long-term use with large datasets]</li>
+                <li>Once registered, click on the "User" tab and click on “Login” with your user credentials.</li>
+                </ol>
+                <li>The first step in the analysis is to import the required input datafiles.  For running any workflow, we need compatible inputs that the tools would use to produce a required output. To access the input for this demonstration, click on “Shared Data”→ “Histories”→ <b>“​Inputs_for_CRAVAT”</b>. Then, click on “Import history” to import all the input files.  The input file consists of a variant call format file (.VCF file), and proBED file. <i>For demo purposes all these datasets have been trimmed to contain only a small amount of data</i>. </li>
+                <li>Once the files have been imported, these will show up as items in our active History. </li>
+                <li>The goal of the workflow is to use the VCF and proBED file to create a CRAVAT output with coding variant annotation.   To access the analysis workflow, click on the "Shared Data" tab → “Workflows”. A list of published, validated workflows will appear. Select the dropdown arrow for the workflow <b>“CRAVAT_workflow​”</b> and click “Import”.</li>
+                <li>The workflow will now show up in your “Workflows” folder within the Galaxy instance. This folder contains an archive of all the workflows you have imported.  To run this workflow on the imported input files in the active History, click on the dropdown menu next to the imported <b>“CRAVAT_workflow”</b> in your Workflow folder, and select “Run”.   </li>
+                <li>The Workflow will now open in the main viewing pane. The Workflow automatically locates files of appropriate data type within the active History. <b>Select appropriate inputs from your History (Freebayes.vcf for the first input, and MCF7_proBed.bed for the second input) to run the workflow</b>.</li>
+                <li>Click on “Run workflow” to start the analysis.  After starting the workflow, new items will appear in the History pane. Once completed, these items will be outputs from the tools that are used for the analysis.  Items in the History that are yellow are actively being processed; gray colored items are steps that are waiting; green colored items are those that have been completed successfully. If an item goes red, and error has occurred that the workflow must be correct and re-run. Hitting the “Refresh history” button in the History pane will update the status of the active History. Once all items have gone green, the workflow is complete.                    </li>
+                <li>The CRAVAT output appears as an item in the active History (Item #7 titled “CRAVAT Results on data 1 and data 2”).  This History item is a collection of results consisting of four tabular outputs - “Gene”, “Variant”, “Noncoding”, “Error”.  This collection can be viewed by clicking on the single History item titled “CRAVAT Results on data 1 and data 2”.</li>
+                <li>The user can click on any output item within the collection in Item #7 in the History to view it in the CRAVAT visualization on the Main viewing pane.  For example, click on the results item “Variants” which opens a menu of options within the item.  Next click on the “Visualize” icon (<img height=20 src="visualizer-icon.png" alt="visualizer icon"/>) and select CRAVAT. The viewer will now open CRAVAT visualizations in the main viewing pane.</li>
+                </ol>
         </div>
         <br/>
         <hr/>
