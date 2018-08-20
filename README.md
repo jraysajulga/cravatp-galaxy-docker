@@ -1,5 +1,5 @@
 # CRAVAT-P Galaxy Docker
----
+
 ###### Description:
 A docker flavor extended from the Galaxy docker image to include the CRAVAT-P demonstration material.
 
