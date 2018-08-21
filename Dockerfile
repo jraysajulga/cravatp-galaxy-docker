@@ -26,7 +26,15 @@ ADD library_data.yaml $GALAXY_ROOT/library_data.yaml
 ADD ./workflows/* $GALAXY_HOME/workflows/
 
 # Container Style
-ADD welcome.html /export/
+ADD homepage/welcome.html /export/
+ADD homepage/welcome_table.gif /export/
+ADD homepage/welcome_mupit.gif /export/
+ADD homepage/welcome_lollipop.gif /export/
+ADD homepage/welcome_ndex.gif /export/
+ADD homepage/welcome_summary.gif /export/
+ADD homepage/welcome_GalaxyP_logo.png /export/
+ADD homepage/welcome_docker.png /export/
+ADD homepage/welcome_cravat.png /export/
 
 ENV GALAXY_CONFIG_TOOL_PATH=/galaxy-central/tools/
 
