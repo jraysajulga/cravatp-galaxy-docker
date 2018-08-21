@@ -37,7 +37,6 @@ docker run [OPTIONS] IMAGE [COMMAND]
 ### CRAVAT-P in Galaxy Guide:
 
 *OVERVIEW*
-*[OVERVIEW]: HyperText Markup Language
 
 |                          |                    |                       |
 | ------------------------ | ------------------ | --------------------  |
