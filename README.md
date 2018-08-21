@@ -1,17 +1,17 @@
 # CRAVAT-P Galaxy Docker
 
-###### Description:
+##### Description:
 A docker flavor extended from the Galaxy docker image to include the CRAVAT-P demonstration material.
 
 
 
-###### What's included:
+##### What's included:
 - CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool
 - CRAVAT Galaxy Viewer
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT Workflow
 ---
-### Docker Guide:
+# Docker Guide:
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
 
 2.) Open your terminal. Run the following command:
@@ -34,7 +34,7 @@ docker run [OPTIONS] IMAGE [COMMAND]
 3.) Wait a few moments for the Docker image to initialize. Open ***http://localhost:8080*** and follow the next guide.
 
 ---
-### CRAVAT-P in Galaxy Guide:
+# CRAVAT-P in Galaxy Guide:
 
 *OVERVIEW*
 
