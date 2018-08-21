@@ -6,42 +6,75 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="Docutils 0.3.9: http://docutils.sourceforge.net/" />
 <link rel="stylesheet" href="style/base.css" type="text/css" />
-<style type="text/css">
-body{background-color:#EEEEFF;background-image:url(images/cloud.gif);background-repeat:repeat-x;background-position: center 80px;margin:0px;}
-</style>
+<link rel="stylesheet" href="welcome_style.css" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="document">
-<div style="text-align: center; padding-top: 60px; background: white; height: 80px;">
-    <img style="float: left; margin: auto; width: 200px;" src="graphics/gpcravatdocker-1.gif" />
-</div>
-    <div style="padding: 160px 120px">
-        <div style="text-align:center">
-            <b style="font-size:20px">SUPPORTING INFORMATION</b>
-            <br></br>
-                <p style="font-size:18px">“Bridging the Chromosome-Centric and Biology and Disease Human Proteome Projects:  Accessible and automated tools for interpreting biological and pathological impact of protein sequence variants detected via proteogenomics”</p>
-                            <hr/>
-
-                <b>Instructions for accessing demonstration data and workflow for proteogenomic-CRAVAT analysis on a publicly available Galaxy instance</b>
-                <p> </p>
-
-                <ol style="text-align:left; line-height: 1.7em">
-                <li>The Galaxy Jetstream instance requires that all users input an email address to access tools and workflows.  To register, perform the following steps:</li>
-                <ol type="a">
-                <li>Click on the  “Login or Register” tab and click on “Register”. Enter an email address, password and public name of choosing. [<b>NOTE:</b> Users who want to remain anonymous can enter and email in the form of guestX@galaxyp.org (where X is any number of your choosing), along with a password and public name of your choosing.  Also note that this instance is for demonstration purposes, and not for long-term use with large datasets]</li>
-                <li>Once registered, click on the "User" tab and click on “Login” with your user credentials.</li>
-                </ol>
-                <li>The first step in the analysis is to import the required input datafiles.  For running any workflow, we need compatible inputs that the tools would use to produce a required output. To access the input for this demonstration, click on “Shared Data”→ “Histories”→ <b>“​Inputs_for_CRAVAT”</b>. Then, click on “Import history” to import all the input files.  The input file consists of a variant call format file (.VCF file), and proBED file. <i>For demo purposes all these datasets have been trimmed to contain only a small amount of data</i>. </li>
-                <li>Once the files have been imported, these will show up as items in our active History. </li>
-                <li>The goal of the workflow is to use the VCF and proBED file to create a CRAVAT output with coding variant annotation.   To access the analysis workflow, click on the "Shared Data" tab → “Workflows”. A list of published, validated workflows will appear. Select the dropdown arrow for the workflow <b>“CRAVAT_workflow​”</b> and click “Import”.</li>
-                <li>The workflow will now show up in your “Workflows” folder within the Galaxy instance. This folder contains an archive of all the workflows you have imported.  To run this workflow on the imported input files in the active History, click on the dropdown menu next to the imported <b>“CRAVAT_workflow”</b> in your Workflow folder, and select “Run”.   </li>
-                <li>The Workflow will now open in the main viewing pane. The Workflow automatically locates files of appropriate data type within the active History. <b>Select appropriate inputs from your History (Freebayes.vcf for the first input, and MCF7_proBed.bed for the second input) to run the workflow</b>.</li>
-                <li>Click on “Run workflow” to start the analysis.  After starting the workflow, new items will appear in the History pane. Once completed, these items will be outputs from the tools that are used for the analysis.  Items in the History that are yellow are actively being processed; gray colored items are steps that are waiting; green colored items are those that have been completed successfully. If an item goes red, and error has occurred that the workflow must be correct and re-run. Hitting the “Refresh history” button in the History pane will update the status of the active History. Once all items have gone green, the workflow is complete.                    </li>
-                <li>The CRAVAT output appears as an item in the active History (Item #7 titled “CRAVAT Results on data 1 and data 2”).  This History item is a collection of results consisting of four tabular outputs - “Gene”, “Variant”, “Noncoding”, “Error”.  This collection can be viewed by clicking on the single History item titled “CRAVAT Results on data 1 and data 2”.</li>
-                <li>The user can click on any output item within the collection in Item #7 in the History to view it in the CRAVAT visualization on the Main viewing pane.  For example, click on the results item “Variants” which opens a menu of options within the item.  Next click on the “Visualize” icon (<img height=20 src="visualizer-icon.png" alt="visualizer icon"/>) and select CRAVAT. The viewer will now open CRAVAT visualizations in the main viewing pane.</li>
-                </ol>
+    <div style="padding: 160px 120px;">
+        <div style="float: left;min-width: 830px">
+            <img style="float: left; width: 200px; padding: 10px; border-radius: 10px" src="graphics/docker.png" />
+            <div style="float: left; text-align:center; min-width: 400px">
+                <b style="font-size:20px">Galaxy CRAVAT-P Dockerized Demonstration</b>
+                <p style="font-size:18px">Bridging the Chromosome-Centric and Biology </br> and Disease Human Proteome Projects: </p>
+                <p style="font-style: italic;font-size:16px">Accessible and automated tools for </br> interpreting biological and pathological impact </br> of protein sequence variants detected via proteogenomics</p>
+            </div>
+            <img style="float: left; width: 200px;" src="graphics/GalaxyP_logo.png" />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br/>
+        <hr/>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="graphics/carousel/table.gif" alt="Datatable">
+            </div>
+
+            <div class="item">
+              <img src="graphics/carousel/lollipop.gif" alt="Lollipop Diagram">
+            </div>
+
+            <div class="item">
+              <img src="graphics/carousel/MuPIT.gif" alt="MuPIT">
+            </div>
+
+            <div class="item">
+              <img src="graphics/carousel/NDeX.gif" alt="NDeX">
+            </div>
+
+            <div class="item">
+              <img src="graphics/carousel/Summary.gif" alt="Summary Tab">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
         <hr/>
         <a target="_blank" class="reference" href="http://galaxyproject.org/">Galaxy</a> is an open, web-based platform for data intensive biomedical research.  The <a target="_blank" class="reference" href="http://wiki.galaxyproject.org/GalaxyTeam">Galaxy team</a> is a part of <a target="_blank" class="reference" href="http://www.bx.psu.edu/">the Center for Comparative Genomics and Bioinformatics</a> at <a target="_blank" class="reference" href="http://www.psu.edu">Penn State</a>, and the <a target="_blank" class="reference" href="http://www.bio.jhu.edu/">Department of Biology</a> and <a target="_blank" class="reference" href="http://cs.jhu.edu/">Computer Science</a> at <a target="_blank" class="reference" href="http://www.jhu.edu/">Johns Hopkins University</a>. The <a target="_blank" class="reference" href="http://galaxyproject.org/">Galaxy Project</a> is supported in part by <a target="_blank" class="reference" href="http://www.genome.gov">NHGRI</a>, <a target="_blank" class="reference" href="http://www.nsf.gov">NSF</a>, <a target="_blank" class="reference" href="http://www.huck.psu.edu">The Huck Institutes of the Life Sciences</a>, <a target="_blank" class="reference" href="http://www.ics.psu.edu">The Institute for CyberScience at Penn State</a>, and <a target="_blank" class="reference" href="http://www.jhu.edu/">Johns Hopkins</a>.</p>
     </div>

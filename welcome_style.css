@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(to right, #2E5C8E, #498E62);
+}
+
+.document {
+  color: white;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.carousel-inner{
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}

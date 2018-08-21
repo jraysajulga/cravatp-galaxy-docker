@@ -6,7 +6,7 @@ FROM bgruening/galaxy-sequence-tools:17.09
 
 MAINTAINER Ray W. Sajulga Jr., jraysajulga@gmail.com
 
-ENV GALAXY_CONFIG_BRAND=" P [CRAVAT Demo]"
+ENV GALAXY_CONFIG_BRAND="[CRAVAT-P Demo]"
 
 WORKDIR /galaxy-central
 
