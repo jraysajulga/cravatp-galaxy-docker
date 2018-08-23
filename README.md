@@ -43,8 +43,7 @@ docker run [OPTIONS] IMAGE [COMMAND]
 | Import the input files → | Run the workflow → | Access the visualizer |
 |                          |                    |                       |
 
-##### 1.) Import the input files
-From the data library
+#### 1.) **Import the input files** from the data library
 * click **Shared Data** > **Data Libraries**,
 * open **Training Data** > **Input files for CRAVAT-P Demo**,
 * check the checkbox in the header to select both input files,
@@ -52,7 +51,7 @@ From the data library
 * *optional: name your new history (e.g., mcf7_cancer_proteogenomics)*,
 * click on the green pop-up window to start analyzing.
 
- ##### 2.) Run the workflow 
+ #### 2.) Log in and **run the workflow**
 * The CRAVAT-P workflow was placed into an administrative account through Docker. To access it, click **Login or Register** > **Login** and log in using the following credentials:
 
 | | | 
@@ -65,5 +64,5 @@ From the data library
 * click on the **CRAVAT Workflow** button and click **Run** from the resulting dropdown,
 * click **Run workflow**. The  analysis will start and be completed in a couple of minutes. *This workflow was set to include proteogenomic input and automatically select the correct input file types (VCF and proBED) in the history.*
 
-3.) 
+#### 2.) **Access the visualizer**
 
