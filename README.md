@@ -1,16 +1,13 @@
 # CRAVAT-P Galaxy Docker
 
-## Description
 A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P.
-
-<p align="center"><b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit - <b>P</b>roteomics</p>
-
-CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P platform.
 
 ![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)
 
 ## CRAVAT-P
-- CRAVAT-P: Cancer Related Analysis of VAriant Toolkits - Proteomics
+(<b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit - <b>P</b>roteomics)
+
+CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P (http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations. The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
 
 
 ### What's included:
