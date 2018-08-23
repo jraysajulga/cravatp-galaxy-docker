@@ -1,10 +1,16 @@
 # CRAVAT-P Galaxy Docker
 
 ## Description
-A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material.
-<p align="center"><b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit (proteomics edition)</p>
+A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P.
+
+<p align="center"><b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit - <b>P</b>roteomics</p>
+
+CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P platform.
 
 ![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)
+
+## CRAVAT-P
+- CRAVAT-P: Cancer Related Analysis of VAriant Toolkits - Proteomics
 
 
 ### What's included:
