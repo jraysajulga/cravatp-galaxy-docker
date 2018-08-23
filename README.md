@@ -11,7 +11,7 @@ A docker flavor extended from the Galaxy docker image to include the CRAVAT-P de
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT Workflow
 ---
-# Docker Guide:
+# Docker Guide
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
 
 2.) Open your terminal. Run the following command:
@@ -31,14 +31,16 @@ docker run [OPTIONS] IMAGE [COMMAND]
 | jraysajulga/galaxy-cravatp-docker | **jraysajulga's** *galaxy-cravatp-docker* image                 | IMAGE        |
 
 
-3.) Wait a few moments for the Docker image to initialize. Open ***http://localhost:8080*** and follow the next guide.
+3.) Wait a few moments for the Docker image to initialize. 
+Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite.
+
 
 ---
-# CRAVAT-P in Galaxy Guide:
+# CRAVAT-P in Galaxy Guide
 
-|                          |   **Overview**         |                       |
-| ------------------------ | ------------------ | --------------------  |
-| Import the input files → | Run the workflow → | Access the visualizer |
+|_______________| **Overview**         |___________           |
+|:------------------------:|:------------------:|:----------------:|
+| Import the input files → | Run the workflow → | Access the viewer |
 |                          |                    |                       |
 
 #### 1.) **Import the input files** from the data library
@@ -58,9 +60,16 @@ docker run [OPTIONS] IMAGE [COMMAND]
 | **Password:**  | admin |
 | | | 
 
-* click **Workflow** to show the list of workflows in this account. *In this case, there's only the **CRAVAT Workflow***,
+* click **Workflow** to show the list of workflows in this account. *In this case, we only have the **CRAVAT Workflow***,
 * click on the **CRAVAT Workflow** button and click **Run** from the resulting dropdown,
 * click **Run workflow**. The  analysis will start and be completed in a couple of minutes. *This workflow was set to include proteogenomic input and automatically select the correct input file types (VCF and proBED) in the history.*
 
-#### 2.) **Access the visualizer**
+#### 2.) **Access the viewer**
+* Once the VCF output turns green (signifying completion), you can access the visualizer.
+* Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*
+* Click the "visualize" icon and select **CRAVAT Viewer**.
+
+---
+
+
 
