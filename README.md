@@ -45,7 +45,9 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 #### 1.) **Import the input files** from the data library
 * click **Shared Data** > **Data Libraries**,
-![pic](https://raw.githubusercontent.com/jraysajulga/cravatp-galaxy-docker/master/graphics/step-1-a.png)
+
+<img src="./graphics/step-1-a.png" alt="step-1" width="400"/>
+
 * open **Training Data** > **Input files for CRAVAT-P Demo**,
 * check the checkbox in the header to select both input files,
 * click **to History**,
