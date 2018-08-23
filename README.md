@@ -11,7 +11,7 @@ A docker flavor extended from the Galaxy docker image to include the CRAVAT-P de
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT Workflow
 ---
-# Docker Guide:
+# Docker Guide
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
 
 2.) Open your terminal. Run the following command:
@@ -31,29 +31,28 @@ docker run [OPTIONS] IMAGE [COMMAND]
 | jraysajulga/galaxy-cravatp-docker | **jraysajulga's** *galaxy-cravatp-docker* image                 | IMAGE        |
 
 
-3.) Wait a few moments for the Docker image to initialize. Open ***http://localhost:8080*** and follow the next guide.
+3.) Wait a few moments for the Docker image to initialize. 
+Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite.
 
-![logo](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/step-1.gif?raw=true)
 
 ---
-# CRAVAT-P in Galaxy Guide:
+# CRAVAT-P in Galaxy Guide
 
-*OVERVIEW*
-
-|                          |                    |                       |
-| ------------------------ | ------------------ | --------------------  |
-| Import the input files → | Run the workflow → | Access the visualizer |
+|_______________| **Overview**         |___________           |
+|:------------------------:|:------------------:|:----------------:|
+| Import the input files → | Run the workflow → | Access the viewer |
 |                          |                    |                       |
 
-1.) Import the input files:
-* click *Shared Data* > *Data Libraries*,
-* open *Training Data* > *Input files for CRAVAT-P Demo*,
-* click the checkbox in the header to select both input files,
-* click *to History*,
+#### 1.) **Import the input files** from the data library
+* click **Shared Data** > **Data Libraries**,
+* open **Training Data** > **Input files for CRAVAT-P Demo**,
+* check the checkbox in the header to select both input files,
+* click **to History**,
 * *optional: name your new history (e.g., mcf7_cancer_proteogenomics)*,
 * click on the green pop-up window to start analyzing.
 
-2.) To access the dockerized CRAVAT-P workflow, you need to log in using this account:
+ #### 2.) Log in and **run the workflow**
+* The CRAVAT-P workflow was placed into an administrative account through Docker. To access it, click **Login or Register** > **Login** and log in using the following credentials:
 
 | | | 
 | ------------------------ | ------------------ |
@@ -61,6 +60,16 @@ docker run [OPTIONS] IMAGE [COMMAND]
 | **Password:**  | admin |
 | | | 
 
-2.) 
+* click **Workflow** to show the list of workflows in this account. *In this case, we only have the **CRAVAT Workflow***,
+* click on the **CRAVAT Workflow** button and click **Run** from the resulting dropdown,
+* click **Run workflow**. The  analysis will start and be completed in a couple of minutes. *This workflow was set to include proteogenomic input and automatically select the correct input file types (VCF and proBED) in the history.*
+
+#### 2.) **Access the viewer**
+* Once the VCF output turns green (signifying completion), you can access the visualizer.
+* Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*
+* Click the "visualize" icon and select **CRAVAT Viewer**.
+
+---
+
 
 
