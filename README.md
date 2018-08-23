@@ -33,7 +33,7 @@ docker run [OPTIONS] IMAGE [COMMAND]
 
 3.) Wait a few moments for the Docker image to initialize. Open ***http://localhost:8080*** and follow the next guide.
 
-![logo](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/step 1.gif.gif?raw=true)
+![logo](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/step-1.gif?raw=true)
 
 ---
 # CRAVAT-P in Galaxy Guide:
