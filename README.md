@@ -36,9 +36,7 @@ docker run [OPTIONS] IMAGE [COMMAND]
 ---
 # CRAVAT-P in Galaxy Guide:
 
-*OVERVIEW*
-
-|                          |                    |                       |
+|                          |   **Overview**         |                       |
 | ------------------------ | ------------------ | --------------------  |
 | Import the input files → | Run the workflow → | Access the visualizer |
 |                          |                    |                       |
