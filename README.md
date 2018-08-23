@@ -1,11 +1,11 @@
 # CRAVAT-P Galaxy Docker
 
-### Description:
-<b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit (proteomics edition)
-
-![main screen](./graphics/main-screen.png)
-
+## Description
 A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material.
+<p align="center"><b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit (proteomics edition)</p>
+
+![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)
+
 
 ### What's included:
 - CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool
@@ -69,6 +69,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 * Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*
 * Click the "visualize" icon and select **CRAVAT Viewer**.
 ---
+
 
 
 
