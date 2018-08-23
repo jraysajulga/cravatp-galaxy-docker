@@ -16,7 +16,7 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT-P Workflow
 ---
-# Docker Guide
+# Installation Guide
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
 
 2.) Open your terminal. Run the following command:
@@ -41,7 +41,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 
 ---
-# CRAVAT-P in Galaxy Guide
+# CRAVAT-P Instructions
 
 |                       | **Overview**         |                   |
 |:------------------------:|:------------------:|:----------------:|
@@ -72,6 +72,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 * Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*
 * Click the "visualize" icon and select **CRAVAT Viewer**.
 ---
+
 
 
 
