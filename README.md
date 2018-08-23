@@ -1,6 +1,6 @@
 # CRAVAT-P Galaxy Docker
 
-A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P.
+A Docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P.
 
 ![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)
 
