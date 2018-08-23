@@ -49,10 +49,25 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 <img src="./graphics/step-1-a.png" alt="step-1" width="400"/>
 
 * open **Training Data** > **Input files for CRAVAT-P Demo**,
+
+<img src="./graphics/step-1-b.png" alt="step-1" width="400"/>
+
 * check the checkbox in the header to select both input files,
+
+<img src="./graphics/step-1-c.png" alt="step-1" width="400"/>
+
 * click **to History**,
+
+<img src="./graphics/step-1-d.png" alt="step-1" width="400"/>
+
 * *optional: name your new history (e.g., mcf7_cancer_proteogenomics)*,
-* click on the green pop-up window to start analyzing.
+* click import,
+
+<img src="./graphics/step-1-e.png" alt="step-1" width="400"/>
+
+* click on the green pop-up window to go back to the homepage to analyze these datasets.
+
+<img src="./graphics/step-1-f.png" alt="step-1" width="400"/>
 
  #### 2.) Log in and **run the workflow**
 * The CRAVAT-P workflow was placed into an administrative account through Docker. To access it, click **Login or Register** > **Login** and log in using the following credentials:
