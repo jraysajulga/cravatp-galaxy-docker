@@ -38,13 +38,14 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 ---
 # CRAVAT-P in Galaxy Guide
 
-|_______________| **Overview**         |___________           |
+|                       | **Overview**         |                   |
 |:------------------------:|:------------------:|:----------------:|
 | Import the input files → | Run the workflow → | Access the viewer |
 |                          |                    |                       |
 
 #### 1.) **Import the input files** from the data library
 * click **Shared Data** > **Data Libraries**,
+![pic](https://raw.githubusercontent.com/jraysajulga/cravatp-galaxy-docker/master/graphics/step-1-a.png)
 * open **Training Data** > **Input files for CRAVAT-P Demo**,
 * check the checkbox in the header to select both input files,
 * click **to History**,
@@ -68,7 +69,6 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 * Once the VCF output turns green (signifying completion), you can access the visualizer.
 * Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*
 * Click the "visualize" icon and select **CRAVAT Viewer**.
-
 ---
 
 
