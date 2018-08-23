@@ -7,9 +7,9 @@ A flavored docker image containing a fully-operational Galaxy instance with pre-
 
 ##### What's included:
 - CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool
-- CRAVAT Galaxy Viewer
+- CRAVAT-P Galaxy Viewer
 - Input files (i.e., VCF and proBED files)
-- Basic CRAVAT Workflow
+- Basic CRAVAT-P Workflow
 ---
 # Docker Guide
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
