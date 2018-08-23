@@ -1,11 +1,11 @@
 # CRAVAT-P Galaxy Docker
 
-#### Description:
+### Description:
 <b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit (proteomics edition)
 
 A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material.
 
-#### What's included:
+### What's included:
 - CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool
 - CRAVAT-P Galaxy Viewer
 - Input files (i.e., VCF and proBED files)
