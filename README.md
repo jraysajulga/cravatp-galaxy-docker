@@ -3,6 +3,8 @@
 ### Description:
 <b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit (proteomics edition)
 
+![main screen](./graphics/main-screen.png)
+
 A flavored docker image containing a fully-operational Galaxy instance with pre-installed demonstration material.
 
 ### What's included:
