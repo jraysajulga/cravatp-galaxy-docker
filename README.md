@@ -13,21 +13,21 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 ---
 
+
 ### Table of Contents:
-- [Background](#background------table-of-contents-)
-  * [CRAVAT-P](#cravat-p------table-of-contents-)
-  * [Galaxy](#galaxy------table-of-contents-)
-  * [CRAVAT-P Galaxy tool](#galaxy-tool------table-of-contents-)
-  * [CRAVAT-P Galaxy viewer plugin](#installation-guide------table-of-contents-)
-  * [Input files](#installation-guide------table-of-contents-)
-  * [VCF](#installation-guide------table-of-contents-)
-  * [ProBED](#installation-guide------table-of-contents-)
-- [Installation Guide](#installation-guide------table-of-contents-)
-- [CRAVAT-P Tutorial](#cravat-p-tutorial------table-of-contents-)
-  * [1.) **Import the input files** from the data library](#1----import-the-input-files---from-the-data-library------table-of-contents-)
-  * [2.) Log in and **run the workflow**](#2--log-in-and---run-the-workflow--------table-of-contents-)
-  * [3.) **Access the viewer**](#3----access-the-viewer--------table-of-contents-)
-- [Clean-up Guide](#installation-guide------table-of-contents-)
+- [CRAVAT-P Galaxy Docker](#cravat-p-galaxy-docker)
+    + [What's included:](#what-s-included-)
+    + [Table of Contents:](#table-of-contents-)
+- [Background [⤴](#table-of-contents)](#background------table-of-contents-)
+    + [CRAVAT-P [⤴](#table-of-contents)](#cravat-p------table-of-contents-)
+    + [Galaxy Tool [⤴](#table-of-contents)](#galaxy-tool------table-of-contents-)
+    + [Galaxy Viewer Plugin [⤴](#table-of-contents)](#galaxy-viewer-plugin------table-of-contents-)
+- [Installation Guide [⤴](#table-of-contents)](#installation-guide------table-of-contents-)
+- [CRAVAT-P Tutorial [⤴](#table-of-contents)](#cravat-p-tutorial------table-of-contents-)
+  * [1.) **Import the input files** from the data library [⤴](#table-of-contents)](#1----import-the-input-files---from-the-data-library------table-of-contents-)
+  * [2.) Log in and **run the workflow** [⤴](#table-of-contents)](#2--log-in-and---run-the-workflow--------table-of-contents-)
+  * [3.) **Access the viewer** [⤴](#table-of-contents)](#3----access-the-viewer--------table-of-contents-)
+
 
 
 ---
@@ -40,8 +40,6 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 
 ![CRAVAT Figure](./graphics/cravat-p.png)s
 
-### Galaxy [⤴](#table-of-contents)
-
 
 ### Galaxy Tool [⤴](#table-of-contents)
 The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
@@ -51,8 +49,6 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 ![viewer](./graphics/viewer.png)
 
-
-### Galaxy  [⤴](#table-of-contents)
 
 </br>
 
