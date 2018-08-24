@@ -50,10 +50,10 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 ---
 # CRAVAT-P Instructions
 
-|                       | **Overview**         |                   |
-|:------------------------:|:------------------:|:----------------:|
-| Import the input files → | Run the workflow → | Access the viewer |
-|                          |                    |                       |
+</br>
+<p align="center"> <b>Overview</b> </p>
+<p align="center"> Import the input files → Run the workflow →  Access the viewer</p>
+</br>
 
 ### 1.) **Import the input files** from the data library
 
