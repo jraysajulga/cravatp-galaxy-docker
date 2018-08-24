@@ -11,6 +11,23 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT-P Workflow
 
+### Table of Contents:
+- Background
+  * [Galaxy Instance](#installation-guide)
+  * [CRAVAT-P](#cravat-p)
+  * [CRAVAT-P Galaxy tool](#cravat-p)
+  * [CRAVAT-P Galaxy viewer plugin](#installation-guide)
+  * [Input files](#installation-guide)
+  * [VCF](#installation-guide)
+  * [ProBED](#installation-guide)
+- [Installation Guide](#installation-guide)
+- [CRAVAT-P Tutorial](#cravat-p-tutorial)
+  * [1.) **Import the input files** from the data library](#1----import-the-input-files---from-the-data-library)
+  * [2.) Log in and **run the workflow**](#2--log-in-and---run-the-workflow--)
+  * [3.) **Access the viewer**](#3----access-the-viewer--)
+- [Clean-up Guide](#installation-guide)
+
+
 ---
 
 ## CRAVAT-P
