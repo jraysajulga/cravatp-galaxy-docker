@@ -55,11 +55,8 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 ```sh
 docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 ```
-The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. **This should take around 15 minutes to download***.
-*For your information:* [Docker Command Line Interface](https://docs.docker.com/engine/reference/commandline/docker/)
-```
-docker run [OPTIONS] IMAGE [COMMAND]
-```
+The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. *This should take around 15 minutes to download*.
+*What these commands mean:* [Docker Command Line Interface](https://docs.docker.com/engine/reference/commandline/docker/)
 | Element                           | Description                                                     | Type         |
 | --------------------------------- | --------------------------------------------------------------- | -----------  |
 | docker                            | The base command for the Docker CLI (Command Language Interface)| Base command |
