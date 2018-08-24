@@ -46,7 +46,7 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 
 </br>
 
-# Installation Guide
+# Installation Guide [⤴](#table-of-contents)
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
 
 2.) Open your terminal. Run the following command:
@@ -71,27 +71,27 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 </br>
 
-# CRAVAT-P Tutorial
+# CRAVAT-P Tutorial [⤴](#table-of-contents)
 
 </br>
 <p align="center"> <b>Overview</b> </p>
 <p align="center"> Import the input files → Run the workflow →  Access the viewer</p>
 </br>
 
-## 1.) **Import the input files** from the data library
+## 1.) **Import the input files** from the data library [⤴](#table-of-contents)
 
 |_____________________________________________________________|_____________________________________________________________|
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | <ul><li>click **Shared Data** > **Data Libraries**</li><li>open **Training Data** > **Input files for CRAVAT-P Demo**</li><li>check the checkbox in the header to select both input files</li><li>click **to History**</li><li>*optional: name your new history (e.g., mcf7_cancer_proteogenomics)*</li><li>click import</li><li>click on the green pop-up window to go back to the homepage to analyze these datasets.</li></ul>| <a target="_blank" href="http://localhost:8080"><img src="./graphics/input-files.gif" alt="step-1"/></a> |
 
 
-## 2.) Log in and **run the workflow**
+## 2.) Log in and **run the workflow** [⤴](#table-of-contents)
 
 |_____________________________________________________________|_____________________________________________________________|
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | <ul><li>The CRAVAT-P workflow was placed into an administrative account through Docker. To access it, click **Login or Register** > **Login** and log in using the following credentials:</li><ul><li>**Username:** admin@galaxy.org</li><li>**Password:** admin</li></ul><li>click **Workflow** to show the list of workflows in this account. *In this case, we only have the **CRAVAT Workflow***</li><li>click on the **CRAVAT Workflow** button and click **Run** from the resulting dropdown</li><li>click **Run workflow**. The  analysis will start and will finish in a couple of minutes. *This workflow was set to include proteogenomic input and automatically select the correct input file types (VCF and proBED) in the history.*</li></ul>| <a href="http://localhost:8080"><img src="./graphics/workflow.gif" alt="step-2"/></a> |
 
-## 3.) **Access the viewer**
+## 3.) **Access the viewer** [⤴](#table-of-contents)
 
 |_____________________________________________________________|_____________________________________________________________|
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
