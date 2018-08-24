@@ -44,6 +44,8 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 ### Galaxy Tool [⤴](#table-of-contents)
 The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
 
+### Galaxy  [⤴](#table-of-contents)
+
 </br>
 
 # Installation Guide [⤴](#table-of-contents)
