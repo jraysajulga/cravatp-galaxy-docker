@@ -19,9 +19,7 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 
 ### Galaxy Tool
 The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
-
-
-
+</br>
 ---
 # Installation Guide
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
@@ -46,7 +44,7 @@ docker run [OPTIONS] IMAGE [COMMAND]
 3.) Wait a few moments for the Docker image to initialize. 
 Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite.
 
-
+</br>
 ---
 # CRAVAT-P Instructions
 
