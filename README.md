@@ -2,7 +2,7 @@
 
 A Docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P.
 
-<a href="https://github.com/jraysajulga/cravatp-galaxy-docker#cravat-p-tutorial">![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)</a>
+<a href="#cravat-p-tutorial">![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)</a>
 
 ### What's included:
 - Galaxy (version 17.09)
