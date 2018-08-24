@@ -73,9 +73,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 | |_____________________________________________________________|
 | ------------------------ | ------------------ |
-| <ul><li>Once the VCF output turns green (signifying completion), you can access the visualizer.</li>
-<li>Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*</li>
-<li>Click the "visualize" icon and select **CRAVAT Viewer**.</li></ul>| <img src="./graphics/viewer.gif" alt="step-3" width="600px"/> |
+| <ul><li>*Once the VCF output turns green (signifying completion), you can access the visualizer.* Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*</li><li>Click the "visualize" icon and select **CRAVAT Viewer**.</li></ul>| <img src="./graphics/viewer.gif" alt="step-3" width="600px"/> |
 
 ---
 
