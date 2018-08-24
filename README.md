@@ -47,7 +47,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 </br>
 
-# CRAVAT-P Instructions
+# Usage
 
 </br>
 <p align="center"> <b>Overview</b> </p>
