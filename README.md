@@ -14,17 +14,17 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ---
 
 ### Table of Contents:
-- [Background](#background------table-of-contents-)
-  * [CRAVAT-P](#cravat-p------table-of-contents-)
-  * [Galaxy](#galaxy------table-of-contents-)
-  * [CRAVAT-P Galaxy tool](#galaxy-tool------table-of-contents-)
-  * [CRAVAT-P Galaxy viewer plugin](#installation-guide------table-of-contents-)
-- [Installation Guide](#installation-guide------table-of-contents-)
-- [CRAVAT-P Tutorial](#cravat-p-tutorial------table-of-contents-)
-  * [1.) **Import the input files** from the data library](#1----import-the-input-files---from-the-data-library------table-of-contents-)
-  * [2.) Log in and **run the workflow**](#2--log-in-and---run-the-workflow--------table-of-contents-)
-  * [3.) **Access the viewer**](#3----access-the-viewer--------table-of-contents-)
-- [Clean-up Guide](#installation-guide------table-of-contents-)
+- [Background](#background-)
+  * [CRAVAT-P](#cravat-p-)
+  * [Galaxy](#galaxy-)
+  * [CRAVAT-P Galaxy tool](#galaxy-tool-)
+  * [CRAVAT-P Galaxy viewer plugin](#installation-guide-)
+- [Installation Guide](#installation-guide-)
+- [CRAVAT-P Tutorial](#cravat-p-tutorial-)
+  * [1.) **Import the input files** from the data library](#1----import-the-input-files---from-the-data-library-)
+  * [2.) Log in and **run the workflow**](#2--log-in-and---run-the-workflow---)
+  * [3.) **Access the viewer**](#3----access-the-viewer---)
+- [Clean-up Guide](#installation-guide-)
 
 ---
 
