@@ -11,6 +11,8 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 - Input files (i.e., VCF and proBED files)
 - Basic CRAVAT-P Workflow
 
+---
+
 ### Table of Contents:
 - [Background](#background)
   * [CRAVAT-P](#cravat-p)
