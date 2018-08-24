@@ -38,11 +38,19 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P (http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations. 
 
+![CRAVAT Figure](./graphics/cravat-p.png)s
+
 ### Galaxy [⤴](#table-of-contents)
 
 
 ### Galaxy Tool [⤴](#table-of-contents)
 The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
+
+![tool](./graphics/tool.png)
+
+### Galaxy Viewer Plugin [⤴](#table-of-contents)
+![viewer](./graphics/viewer.png)
+
 
 ### Galaxy  [⤴](#table-of-contents)
 
@@ -100,10 +108,4 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 | <ul><li>*Once the VCF output turns green (signifying completion), you can access the visualizer.* Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*</li><li>Click the "visualize" icon and select **CRAVAT Viewer**.</li></ul>| <a href="http://localhost:8080"><img src="./graphics/viewer.gif" alt="step-3"/></a> |
 
 ---
-
-
-
-
-
-
 
