@@ -101,3 +101,12 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 ---
 
+# Clean-up Guide [⤴](#table-of-contents)
+
+Once you are finished running through this demonstration, you should kill the Docker container and/or exit out of Docker.
+
+1.) To kill your docker container, list out the Docker containers that are currently running by issuing this [command](https://docs.docker.com/engine/reference/commandline/ps/):
+```
+docker ps
+```
+
