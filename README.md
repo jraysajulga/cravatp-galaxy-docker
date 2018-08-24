@@ -58,7 +58,7 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 |_____________________________________________________________|_____________________________________________________________|
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <ul><li>click **Shared Data** > **Data Libraries**</li><li>open **Training Data** > **Input files for CRAVAT-P Demo**</li><li>check the checkbox in the header to select both input files</li><li>click **to History**</li><li>*optional: name your new history (e.g., mcf7_cancer_proteogenomics)*</li><li>click import</li><li>click on the green pop-up window to go back to the homepage to analyze these datasets.</li></ul>| <a href="http://localhost:8080"><img src="./graphics/input-files.gif" alt="step-1" width="600px"/></a> |
+| <ul><li>click **Shared Data** > **Data Libraries**</li><li>open **Training Data** > **Input files for CRAVAT-P Demo**</li><li>check the checkbox in the header to select both input files</li><li>click **to History**</li><li>*optional: name your new history (e.g., mcf7_cancer_proteogenomics)*</li><li>click import</li><li>click on the green pop-up window to go back to the homepage to analyze these datasets.</li></ul>| <a target="_blank" href="http://localhost:8080"><img src="./graphics/input-files.gif" alt="step-1" width="600px"/></a> |
 
 
 ## 2.) Log in and **run the workflow**
