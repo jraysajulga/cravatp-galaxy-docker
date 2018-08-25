@@ -16,8 +16,9 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ### Table of Contents:
 - [*Background*](#background-)
   * [*CRAVAT-P*](#cravat-p-)
-  * [*CRAVAT-P Galaxy tool*](#galaxy-tool-)
-  * [*CRAVAT-P Galaxy viewer plugin*](#installation-guide-)
+  * [*Galaxy tool*](#galaxy-tool-)
+  * [*Galaxy workflow*](#galaxy-workflow-)
+  * [*Galaxy viewer plugin*](#installation-guide-)
 - [**Installation Guide**](#installation-guide-)
 - [**CRAVAT-P Tutorial**](#cravat-p-tutorial-)
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
@@ -41,6 +42,8 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 
 <img src="./graphics/tool.png" alt="tool" height="800"/>
 
+### Galaxy Workflow [⤴](#table-of-contents)
+![viewer](./graphics/workflow.png)
 
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 ![viewer](./graphics/viewer.png)
