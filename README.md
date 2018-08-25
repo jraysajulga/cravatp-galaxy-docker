@@ -55,8 +55,11 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 ```
 The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. *This should take around 15 minutes to download*.
-*What these commands mean:* [Docker Command Line Interface](https://docs.docker.com/engine/reference/commandline/docker/)
-| Element                           | Description                                                     | Type         |
+
+
+*In the meanwhile, feel free to take some time to understand the different components of the Docker command you just ran.*  [Docker Command Line Interface](https://docs.docker.com/engine/reference/commandline/docker/)
+
+| Component                         | Description                                                     | Type         |
 | --------------------------------- | --------------------------------------------------------------- | -----------  |
 | docker                            | The base command for the Docker CLI (Command Language Interface)| Base command |
 | run                               | Run a command in a new container                                | Command      |
@@ -66,7 +69,7 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 
 
 3.) Wait a few moments for the Docker image to initialize. 
-Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait and then reload the page in a few moments*.
+Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few moments and then reload the page*.
 
 </br>
 
