@@ -39,7 +39,7 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 ### Galaxy Tool [⤴](#table-of-contents)
 The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are integrated within the tabular output provided by the CRAVAT server.
 
-![tool](./graphics/tool.png)
+<img src="./graphics/tool.png" alt="tool" height="800"/>
 
 
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
@@ -54,10 +54,10 @@ The accepted format for this proteogenomic input is the proBED format. Alongside
 ```sh
 docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 ```
-The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. *This should take around 15 minutes to download*.
+The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
 
 
-*In the meanwhile, feel free to take some time to understand the different components of the Docker command you just ran.*  [Docker Command Line Interface](https://docs.docker.com/engine/reference/commandline/docker/)
+In the meanwhile, feel free to take some time to understand the different components of the Docker command you just ran.
 
 | Component                         | Description                                                     | Type         |
 | --------------------------------- | --------------------------------------------------------------- | -----------  |
@@ -66,6 +66,7 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 | -d, --detach                      | Run container in background and print container ID              | OPTION       |
 | -p, --publish                     | Publish a container's port(s) to the host                       | OPTION       |
 | jraysajulga/galaxy-cravatp-docker | **jraysajulga's** *galaxy-cravatp-docker* image                 | IMAGE        |
+More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/).
 
 
 3.) Wait a few moments for the Docker image to initialize. 
