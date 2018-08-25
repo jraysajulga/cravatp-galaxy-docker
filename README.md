@@ -57,15 +57,15 @@ docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
 
 
-In the meanwhile, feel free to take some time to understand the different components of the Docker command you just ran.
+In the meanwhile, feel free to take some time to understand the different components of this Docker command.
 
-| Component                         | Description                                                     | Type         |
-| --------------------------------- | --------------------------------------------------------------- | -----------  |
-| docker                            | The base command for the Docker CLI (Command Language Interface)| Base command |
-| run                               | Run a command in a new container                                | Command      |
-| -d, --detach                      | Run container in background and print container ID              | OPTION       |
-| -p, --publish                     | Publish a container's port(s) to the host                       | OPTION       |
-| jraysajulga/galaxy-cravatp-docker | **jraysajulga's** *galaxy-cravatp-docker* image                 | IMAGE        |
+| Component                         | Type         | Description                                                     |
+| --------------------------------- | -----------  | --------------------------------------------------------------- |
+| docker                            | Base command | The base command for the Docker CLI (Command Language Interface)|
+| run                               | Command      | Run a command in a new container                                |
+| -d, --detach                      | OPTION       | Run container in background and print container ID              |
+| -p, --publish                     | OPTION       | Publish a container's port(s) to the host                       |
+| jraysajulga/galaxy-cravatp-docker | IMAGE        | **jraysajulga's** *galaxy-cravatp-docker* image                 |
 More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/).
 
 
