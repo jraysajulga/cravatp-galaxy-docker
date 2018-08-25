@@ -16,7 +16,6 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ### Table of Contents:
 - [Background](#background-)
   * [CRAVAT-P](#cravat-p-)
-  * [Galaxy](#galaxy-)
   * [CRAVAT-P Galaxy tool](#galaxy-tool-)
   * [CRAVAT-P Galaxy viewer plugin](#installation-guide-)
 - [**Installation Guide**](#installation-guide-)
@@ -24,7 +23,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
   * [2.) Run the workflow](#2-log-in-and-run-the-workflow-)
   * [3.) Access the viewer](#3-access-the-viewer-)
-- [Clean-up Guide](#clean-up-guide-)
+- [Viewer Features](#viewer-features-)
 
 ---
 
@@ -34,17 +33,17 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P (http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations. 
 
-![CRAVAT Figure](./graphics/cravat-p.png)s
+![CRAVAT Figure](./graphics/cravat-p.png)
 
 
 ### Galaxy Tool [⤴](#table-of-contents)
-The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are included within the tabular output provided by the CRAVAT server.
+The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are integrated within the tabular output provided by the CRAVAT server.
 
 ![tool](./graphics/tool.png)
 
+
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 ![viewer](./graphics/viewer.png)
-
 
 </br>
 
@@ -67,9 +66,10 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 
 
 3.) Wait a few moments for the Docker image to initialize. 
-Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite.
+Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait and then reload the page in a few moments*.
 
 </br>
+
 
 # CRAVAT-P Tutorial [⤴](#table-of-contents)
 
@@ -99,16 +99,5 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 
 ---
 
-# Clean-up Guide [⤴](#table-of-contents)
-
-Once you are finished running through this demonstration, you should kill the Docker container and/or exit out of Docker.
-
-1.) To kill your docker container, list out the Docker containers that are currently running by issuing this [command](https://docs.docker.com/engine/reference/commandline/ps/):
-```
-docker ps
-```
-- From the line containing *jraysajulga/galaxy-cravatp-docker*, copy the alphanumeric container ID and paste it into the following [command](https://docs.docker.com/engine/reference/commandline/kill/):
-```
-docker kill [container ID]
-```
+# Viewer Features [⤴](#table-of-contents)
 
