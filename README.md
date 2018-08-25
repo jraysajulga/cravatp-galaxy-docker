@@ -5,7 +5,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 <a href="#cravat-p-tutorial">![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)</a>
 
 ### What's included:
-- Galaxy Instance (version 17.09)
+- <a target="_blank" src="https://github.com/galaxyproject/galaxy/tree/release_17.09">Galaxy Instance (version 17.09)</a>
 - CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool
 - CRAVAT-P Galaxy Viewer
 - Input files (i.e., VCF and proBED files)
