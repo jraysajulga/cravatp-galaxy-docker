@@ -28,7 +28,6 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
   * [2.) Run the workflow](#2-log-in-and-run-the-workflow-)
   * [3.) Access the viewer](#3-access-the-viewer-)
-     + [**Viewer Features**](#viewer-features-)
 
 ---
 
@@ -146,7 +145,3 @@ VAR542| chr19| 18856059| +| C| T|
 | <ul><li>*Once the VCF output turns green (signifying completion), you can access the visualizer.* Open the dataset collection, and click on any of the four datasets to expand it. The **variant** dataset is preferred, since it typically contains the most useful information. *In the viewer, you will be able to access all the datasets anyway.*</li><li>Click the "visualize" icon and select **CRAVAT Viewer**.</li></ul>| <a href="http://localhost:8080"><img src="./graphics/viewer.gif" alt="step-3"/></a> |
 
 ---
-
-# Viewer Features [⤴](#table-of-contents)
-
-*Work in progress*
