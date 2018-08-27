@@ -52,7 +52,7 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 | -p, --publish                     | OPTION       | Publish a container's port(s) to the host                       |
 | jraysajulga/galaxy-cravatp-docker | IMAGE        | **jraysajulga's** *galaxy-cravatp-docker* image                 |
 
-*More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/)*.
+> *More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/)*.
 
 3.) Wait a few moments for the Docker image to initialize as a container.
 Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few moments and then reload the page*.
