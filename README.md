@@ -30,7 +30,8 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [3.) Access the viewer](#3-access-the-viewer-)
 - [**Viewer Features**](#viewer-features-)
 
-[<h1>Click here</h1>](#installation-guide-) to skip the background information and get right to installing!
+[**Click here**](#installation-guide-) to skip the background information and get right to installing!
+
 ---
 
 # Background [⤴](#table-of-contents)
