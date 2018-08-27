@@ -53,13 +53,13 @@ VAR541| chr19| 17205973| +| T| C|
 VAR542| chr19| 18856059| +| C| T|
 
 ProBED (Proteomic Browser Extensible Data)
-| Chr.| Start| End| Peptide| Strand|
+| Chr.| Start | End | Peptide | Strand |
 | --- | --- | --- | --- | --- |
-| chr12| 6561014| 6561056| STGVILANDANAER| -|
-| chr12| 110339607| 110339637| EWGSGSDILR| +|
-| chr14| 102083930| 102083972| GVVDSENLPLNISR| -|
-| chr19| 17205300| 17206022| IQSHCSYTYGRMGEPG…</br>AEPGHFGVCVDSLTSDK| | +|
-| chr19| 18856027| 18856078| EAIDSPVSFLVLHNQIR| +
+| chr12 | 6561014   | 6561056   | STGVILANDANAER | - |
+| chr12 | 110339607 | 110339637 | EWGSGSDILR     | + |
+| chr14 | 102083930 | 102083972 | GVVDSENLPLNISR | - |
+| chr19 | 17205300  | 17206022  | IQSHCSYTYGRMGEPG…AEPGHFGVCVDSLTSDK | + |
+| chr19 | 18856027  | 18856078  | EAIDSPVSFLVLHNQIR | + |
 
 
 ### Galaxy Workflow [⤴](#table-of-contents)
