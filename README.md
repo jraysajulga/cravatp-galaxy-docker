@@ -18,17 +18,47 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ---
 
 ### Table of Contents:
+- [**Installation Guide**](#installation-guide-)
 - [*Background*](#background-)
   * [*CRAVAT-P*](#cravat-p-)
   * [*Galaxy tool*](#galaxy-tool-)
   * [*Galaxy workflow*](#galaxy-workflow-)
   * [*Galaxy viewer plugin*](#installation-guide-)
-- [**Installation Guide**](#installation-guide-) 
 - [**CRAVAT-P Tutorial**](#cravat-p-tutorial-)
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
   * [2.) Run the workflow](#2-log-in-and-run-the-workflow-)
   * [3.) Access the viewer](#3-access-the-viewer-)
 - [**Viewer Features**](#viewer-features-)
+
+---
+
+
+# Installation Guide [⤴](#table-of-contents)
+1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
+
+2.) Open your terminal. Run the following command:
+```sh
+docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
+```
+The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
+
+In the meanwhile, feel free to take some time to understand the different components of this Docker command.
+
+| Component                         | Type         | Description                                                     |
+| --------------------------------- | -----------  | --------------------------------------------------------------- |
+| docker                            | Base command | The base command for the Docker CLI (Command Language Interface)|
+| run                               | Command      | Run a command in a new container                                |
+| -d, --detach                      | OPTION       | Run container in background and print container ID              |
+| -p, --publish                     | OPTION       | Publish a container's port(s) to the host                       |
+| jraysajulga/galaxy-cravatp-docker | IMAGE        | **jraysajulga's** *galaxy-cravatp-docker* image                 |
+
+*More documentation can be found at [Docker's documentation website]*(https://docs.docker.com/engine/reference/commandline/docker/).
+
+3.) Wait a few moments for the Docker image to initialize as a container.
+Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few moments and then reload the page*.
+
+**Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.**
+</br>
 
 ---
 
@@ -81,33 +111,6 @@ ProBED (Proteomic Browser Extensible Data)
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 ![viewer](./graphics/viewer.png)
 
-</br>
-
-# Installation Guide [⤴](#table-of-contents)
-1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
-
-2.) Open your terminal. Run the following command:
-```sh
-docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
-```
-The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
-
-In the meanwhile, feel free to take some time to understand the different components of this Docker command.
-
-| Component                         | Type         | Description                                                     |
-| --------------------------------- | -----------  | --------------------------------------------------------------- |
-| docker                            | Base command | The base command for the Docker CLI (Command Language Interface)|
-| run                               | Command      | Run a command in a new container                                |
-| -d, --detach                      | OPTION       | Run container in background and print container ID              |
-| -p, --publish                     | OPTION       | Publish a container's port(s) to the host                       |
-| jraysajulga/galaxy-cravatp-docker | IMAGE        | **jraysajulga's** *galaxy-cravatp-docker* image                 |
-
-*More documentation can be found at [Docker's documentation website]*(https://docs.docker.com/engine/reference/commandline/docker/).
-
-3.) Wait a few moments for the Docker image to initialize as a container.
-Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few moments and then reload the page*.
-
-**Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.**
 </br>
 
 
