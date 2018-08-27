@@ -105,9 +105,7 @@ VAR542| chr19| 18856059| +| C| T|
 | VAR539_unknown |chr19 |17205335 |+ |A |T |IQSHCSYTYGRKGEPGVEPGHFGVCVDSLTSDK |IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK | |ENST00000594824.5 |Regulation of RhoA activity |
 | VAR541_unknown |chr19 |17205973 |+ |T |C |IQSHCSYTYGRKGEPGVEPGHFGVCVDSLTSDK |IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK |thyroid(2) |ENST00000594824.5 |Regulation of RhoA activity |
 | VAR542_unknown |chr19 |18856059 |+ |C |T |EAIDSPVSFLALHNQIR |EAIDSPVSFLVLHNQIR |large_intestine(1) |ENST00000599848.5 | |
-| VAR532_unknown |chr14 |102083954 |+ |C |T |GVVDSEDLPLNISR |GVVDSENLPLNISR |large_intestine(1) |ENST00000334701.11 |Validated targets of C-MYC transcriptional activation@VEGFR1 specific signals@Signaling events mediated by HDAC Class II@Integrin-linked kinase signaling@Class I PI3K signaling events mediated by Akt@Integrins in angiogenesis@IL2 signaling events mediated by PI3K@Regulation of Telomerase@Glucocorticoid receptor regulatory network@Hypoxic and oxygen homeostasis regulation of HIF-1-alpha@ErbB receptor signaling network@LKB1 signaling events@Signaling events mediated by VEGFR1 and VEGFR2@Class I PI3K signaling events@Regulation of Androgen receptor activity |
-![CRAVAT Figure](./graphics/cravat-p.png)
-Peptides that are matched with lines in the genomic VCF file are verified via sequences obtained from Ensembl. 
+| VAR532_unknown |chr14 |102083954 |+ |C |T |GVVDSEDLPLNISR |GVVDSENLPLNISR |large_intestine(1) |ENST00000334701.11 |Validated targets of C-MYC transcriptional activation@VEGFR1 specific signals@Signaling events mediated by HDAC Class II...|
 
 
 ### Galaxy Workflow [⤴](#table-of-contents)
