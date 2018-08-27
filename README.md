@@ -42,7 +42,7 @@ docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 ```
 The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
 
-> In the meanwhile, feel free to take some time to understand the different components of this Docker command. You can also read up on background information in the next [section](#background-).
+> In the meanwhile, feel free to take some time to understand the different components of this Docker command. You can also read up on CRAVAT-P background information in the next [section](#background-).
 
 | Component                         | Type         | Description                                                     |
 | --------------------------------- | -----------  | --------------------------------------------------------------- |
@@ -94,7 +94,7 @@ ProBED (Proteomic Browser Extensible Data)
 | chr12 | 6561014   | 6561056   | STGVILANDANAER | - |
 | chr12 | 110339607 | 110339637 | EWGSGSDILR     | + |
 | chr14 | 102083930 | 102083972 | GVVDSENLPLNISR | - |
-| chr19 | 17205300  | 17206022  | IQSHCSYTYGRMGEPG…AEPGHFGVCVDSLTSDK | + |
+| chr19 | 17205300  | 17206022  | IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK | + |
 | chr19 | 18856027  | 18856078  | EAIDSPVSFLVLHNQIR | + |
 
 
