@@ -53,6 +53,7 @@ VAR541| chr19| 17205973| +| T| C|
 VAR542| chr19| 18856059| +| C| T|
 
 ProBED (Proteomic Browser Extensible Data)
+
 | Chr.| Start | End | Peptide | Strand |
 | --- | --- | --- | --- | --- |
 | chr12 | 6561014   | 6561056   | STGVILANDANAER | - |
