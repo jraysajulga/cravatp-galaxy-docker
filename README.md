@@ -54,7 +54,7 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 > *More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/)*.
 
 3.) Once the command is finished, wait a few moments for the Docker image to initialize as a container.
-Open **http://localhost:8080** and follow the [CRAVAT-P tutorial](#cravat-p-tutorial-) to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few seconds and then reload the page*.
+Open **http://localhost:8080** and **follow the [CRAVAT-P tutorial](#cravat-p-tutorial-) to access the CRAVAT-P suite**. *If you do not see the Galaxy screen, wait a few seconds and then reload the page*.
 
 **Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.**
 </br>
