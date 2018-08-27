@@ -38,7 +38,29 @@ CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the
 
 <img src="./graphics/tool.png" alt="tool" height="800"/>
 
-The figure above shows the Galaxy tool developed for submitting jobs to the CRAVAT server. It extends from an earlier version of [*In Silico Solutions*'](http://insilico.us.com) Galaxy tool ([cravat_score_and_annotate](https://toolshed.g2.bx.psu.edu/view/in_silico/cravat_score_and_annotate/67a13940d0bf)). In our CRAVAT-P tool, we added support for additional parameters: [CHASM](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763410/) classifiers (e.g., breast, brain-glioblastoma-multiforme, etc.) and the older [GRCh37/hg19 human genome build](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/). We also added proteomic support, as highlighted by the outlined red box. Here, a proBED file can be provided for intersection with the genomic input file—VCF (Variant Call Format). You can specify whether you want to output the intersected VCF file or submit only the intersected variants. This intersection is described in more detail in the next section.
+The figure above shows the Galaxy tool developed for submitting jobs to the CRAVAT server. It extends from an earlier version of [*In Silico Solutions*'](http://insilico.us.com) Galaxy tool ([cravat_score_and_annotate](https://toolshed.g2.bx.psu.edu/view/in_silico/cravat_score_and_annotate/67a13940d0bf)). In our CRAVAT-P tool, we added support for additional parameters: [CHASM](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763410/) classifiers (e.g., breast, brain-glioblastoma-multiforme, etc.) and the older [GRCh37/hg19 human genome build](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/). We also added proteomic support, as highlighted by the outlined red box. Here, a proBED file can be provided for intersection with the genomic input file—VCF (Variant Call Format). You can specify whether you want to output the intersected VCF file or submit only the intersected variants.
+
+#### Input file Examples
+VCF (Variant Call Format)
+
+| ID| Chr.| Position| Strand| Ref. base| Alt. base|
+| --- | --- | --- | --- | --- | --- |
+VAR527| chr12| 6561055| +| T| C|
+VAR529| chr12| 110339630| +| C| T|
+VAR532| chr14| 102083954| +| C| T|
+VAR539| chr19| 17205335| +| A| T|
+VAR541| chr19| 17205973| +| T| C|
+VAR542| chr19| 18856059| +| C| T|
+
+ProBED (Proteomic Browser Extensible Data)
+| Chr.| Start| End| Peptide| Strand|
+| --- | --- | --- | --- | --- |
+| chr12| 6561014| 6561056| STGVILANDANAER| -|
+| chr12| 110339607| 110339637| EWGSGSDILR| +|
+| chr14| 102083930| 102083972| GVVDSENLPLNISR| -|
+| chr19| 17205300| 17206022| IQSHCSYTYGRMGEPG…</br>AEPGHFGVCVDSLTSDK| | +|
+| chr19| 18856027| 18856078| EAIDSPVSFLVLHNQIR| +
+
 
 ### Galaxy Workflow [⤴](#table-of-contents)
 
