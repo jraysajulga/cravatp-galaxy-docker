@@ -33,6 +33,8 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ---
 
 # Background [⤴](#table-of-contents)
+This section introduces a background information behind this demonstration's components. Feel free to skip it and get to the installation guide by clicking [*here*](#installation-guide-).
+
 ### CRAVAT-P [⤴](#table-of-contents)
 (<b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit - <b>P</b>roteomics)
 
