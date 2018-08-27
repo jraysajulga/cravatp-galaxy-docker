@@ -17,7 +17,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 ---
 
-# Table of Contents:
+# Table of Contents
 - [**Installation Guide**](#installation-guide-)
 - [*Background*](#background-)
   * [*CRAVAT-P*](#cravat-p-)
