@@ -74,7 +74,7 @@ In the meanwhile, feel free to take some time to understand the different compon
 3.) Wait a few moments for the Docker image to initialize as a container.
 Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P suite. *If you do not see the Galaxy screen, wait a few moments and then reload the page*.
 
-*Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.*
+**Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.**
 </br>
 
 
