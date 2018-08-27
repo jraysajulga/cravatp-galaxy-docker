@@ -42,7 +42,7 @@ docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
 ```
 The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
 
-In the meanwhile, feel free to take some time to understand the different components of this Docker command.
+In the meanwhile, feel free to take some time to understand the different components of this Docker command. You can also read up on background information in the next [section](#background-).
 
 | Component                         | Type         | Description                                                     |
 | --------------------------------- | -----------  | --------------------------------------------------------------- |
@@ -63,9 +63,6 @@ Open **http://localhost:8080** and follow the next guide to access the CRAVAT-P 
 ---
 
 # Background [⤴](#table-of-contents)
-</br>
-*This section introduces a background information behind this demonstration's components. Feel free to skip it and get to the installation guide by clicking [here](#installation-guide-)*.
-</br>
 
 ### CRAVAT-P [⤴](#table-of-contents)
 (<b>C</b>ancer <b>R</b>elated <b>A</b>nalysis of <b>VA</b>riants <b>T</b>oolkit - <b>P</b>roteomics)
