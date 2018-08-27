@@ -4,6 +4,10 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 <a href="#cravat-p-tutorial">![main screen](https://github.com/jraysajulga/cravatp-galaxy-docker/blob/master/graphics/main-screen.png?raw=true)</a>
 
+Created as a demonstration for the following technical note:
+
+["Bridging the Chromosome-Centric and Biology and Disease Human Proteome Projects: Accessible and automated tools for interpreting biological and pathological impact of protein sequence variants detected via proteogenomics"](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00404)
+
 ### What's included:
 - <a target="_blank" href="https://github.com/galaxyproject/galaxy/tree/release_17.09">Galaxy Instance (version 17.09)</a>
 - <a target="_blank" href="https://github.com/jraysajulga/cravatp_score_and_annotate">CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool</a>
