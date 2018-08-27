@@ -28,7 +28,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
   * [2.) Run the workflow](#2-log-in-and-run-the-workflow-)
   * [3.) Access the viewer](#3-access-the-viewer-)
-- [**Viewer Features**](#viewer-features-)
+     + [**Viewer Features**](#viewer-features-)
 
 ---
 
