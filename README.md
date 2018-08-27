@@ -23,13 +23,14 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [*Galaxy tool*](#galaxy-tool-)
   * [*Galaxy workflow*](#galaxy-workflow-)
   * [*Galaxy viewer plugin*](#installation-guide-)
-- [**Installation Guide**](#installation-guide-)
+- [**Installation Guide**](#installation-guide-) 
 - [**CRAVAT-P Tutorial**](#cravat-p-tutorial-)
   * [1.) Import the input files](#1-import-the-input-files-from-the-data-library-)
   * [2.) Run the workflow](#2-log-in-and-run-the-workflow-)
   * [3.) Access the viewer](#3-access-the-viewer-)
 - [**Viewer Features**](#viewer-features-)
 
+[<h1>Click here</h1>](#installation-guide-) to skip the background information and get right to installing!
 ---
 
 # Background [⤴](#table-of-contents)
