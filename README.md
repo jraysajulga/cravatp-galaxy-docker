@@ -34,15 +34,17 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P (http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations. 
 
-![CRAVAT Figure](./graphics/cravat-p.png)
-
-
 ### Galaxy Tool [⤴](#table-of-contents)
-The accepted format for this proteogenomic input is the proBED format. Alongside a genomic input file—VCF (Variant Call Format)—a simple Python script performs an intersection to determine which genomic variants have associated peptide variants. These variant matches are then verified via protein sequences from Ensembl. Once matched, these peptides are integrated within the tabular output provided by the CRAVAT server.
 
 <img src="./graphics/tool.png" alt="tool" height="800"/>
 
+The figure above shows the Galaxy tool developed for submitting jobs to the CRAVAT server. It extends from an earlier version of [*In Silico Solutions*'](http://insilico.us.com) Galaxy tool ([cravat_score_and_annotate](https://toolshed.g2.bx.psu.edu/view/in_silico/cravat_score_and_annotate/67a13940d0bf)). In our CRAVAT-P tool, we added support for additional parameters: [CHASM](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763410/) classifiers (e.g., breast, brain-glioblastoma-multiforme, etc.) and the older [GRCh37/hg19 human genome build](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/). We also added proteomic support, as highlighted by the outlined red box. Here, a proBED file can be provided for intersection with the genomic input file—VCF (Variant Call Format). You can specify whether you want to output the intersected VCF file or submit only the intersected variants. This intersection is described in more detail in the next section.
+
 ### Galaxy Workflow [⤴](#table-of-contents)
+
+![CRAVAT Figure](./graphics/cravat-p.png)
+
+
 ![viewer](./graphics/workflow.png)
 
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
