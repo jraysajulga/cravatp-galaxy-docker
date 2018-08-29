@@ -59,7 +59,6 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 Open **http://localhost:8080** and **follow the [CRAVAT-P tutorial](#cravat-p-tutorial-) to access the CRAVAT-P suite**. *If you do not see the Galaxy screen, wait a few seconds and then reload the page*.
 
 **Once you are finished using this container, you can clean up your workspace by simply exiting out of Docker.**
-</br>
 
 ---
 
@@ -97,17 +96,6 @@ VAR542| chr19| 18856059| +| C| T|
 | chr19 | 17205300  | 17206022  | IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK | + |
 | chr19 | 18856027  | 18856078  | EAIDSPVSFLVLHNQIR | + |
 
-**CRAVAT *Variant* Output**
-
-| ID |Chromosome |Position |Strand |Reference base(s) |Alternate base(s) |Reference peptide |Variant peptide |COSMIC variant count (tissue) |S.O. transcript |NCI pathway names |
-| -------------- | ---- | ------ | --- | --- | --- | -------------- | -----------------| --- | ----------------- | --- |
-| VAR527_unknown |chr12 |6561055 |+ |T |C |NTGVILANDANAER |STGVILANDANAER | |ENST00000616948.4 | |
-| VAR529_unknown |chr12 |110339630 |+ |C |T |EWGSGSDTLR |EWGSGSDILR | |ENST00000539276.6 | |
-| VAR539_unknown |chr19 |17205335 |+ |A |T |IQSHCSYTYGRKGEPGVEPGHFGVCVDSLTSDK |IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK | |ENST00000594824.5 |Regulation of RhoA activity |
-| VAR541_unknown |chr19 |17205973 |+ |T |C |IQSHCSYTYGRKGEPGVEPGHFGVCVDSLTSDK |IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK |thyroid(2) |ENST00000594824.5 |Regulation of RhoA activity |
-| VAR542_unknown |chr19 |18856059 |+ |C |T |EAIDSPVSFLALHNQIR |EAIDSPVSFLVLHNQIR |large_intestine(1) |ENST00000599848.5 | |
-| VAR532_unknown |chr14 |102083954 |+ |C |T |GVVDSEDLPLNISR |GVVDSENLPLNISR |large_intestine(1) |ENST00000334701.11 |Validated targets of C-MYC transcriptional activation@VEGFR1 specific signals@Signaling events mediated by HDAC Class II...|
-
 
 ### Galaxy Workflow [⤴](#table-of-contents)
 
@@ -117,15 +105,14 @@ VAR542| chr19| 18856059| +| C| T|
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 ![viewer](./graphics/viewer.png)
 
-</br>
 
 
 # CRAVAT-P Tutorial [⤴](#table-of-contents)
 
-</br>
+
 <p align="center"> <b>Overview</b> </p>
 <p align="center"> Import the input files → Run the workflow →  Access the viewer</p>
-</br>
+
 
 ## 1.) **Import the input files** from the data library [⤴](#table-of-contents)
 
