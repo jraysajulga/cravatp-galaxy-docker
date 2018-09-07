@@ -48,7 +48,5 @@ tools:
 # Database Creation Workflow Tools
 - name: cravatool
   owner: galaxyp
-  revisions:
-  - f3027b8f28bd
   tool_panel_section_label: CRAVAT
   tool_shed_url: https://toolshed.g2.bx.psu.edu
