@@ -123,6 +123,8 @@ C.) CRAVAT uses Protein Diagrams to show lollipop mutations from your given prot
 
 D.) CRAVAT uses the cytoscape.js library to display gene enrichment networks housed by the NDEx (Network Data Exchange) infrastructure. You can move elements around and examine different pathways.
 
+E.) CRAVAT uses another project developed by the same lab (Professor Rachel Karchin's lab) called MuPIT (Mutation Position Imaging Toolbox) designed to show the location of single nucleotide variants (SNVs) on interactive three-dimensional protein structures. You can click on individual residues and adjust the display options.
+
 ---
 
 # CRAVAT-P Tutorial [⤴](#table-of-contents)
