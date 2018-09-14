@@ -33,6 +33,11 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 ---
 
+# Collaborators
+- <a target="_blank" href="http://karchinlab.org">Karchin lab of John Hopkin's University</a>
+- <a target="_blank" href="http://insilico.us.com">In Silico Solutions</a>
+
+---
 
 # Installation Guide [⤴](#table-of-contents)
 1.) Install Docker for  [Mac](https://docs.docker.com/docker-for-mac/install/) or [PC](https://docs.docker.com/docker-for-windows/install/). Open Docker.
