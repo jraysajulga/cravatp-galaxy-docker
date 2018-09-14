@@ -41,7 +41,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 ```sh
 docker run -d -p 8080:80 galaxyp/cravatp
 ```
-The image will now download from the public repository <a target="_blank" href="https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/">*jraysajulga/galaxy-cravatp-docker*</a> on Docker Hub. This should take around 15 minutes to download.
+The image will now download from the public repository <a target="_blank" href="https://hub.docker.com/r/galaxyp/cravatp/">*galaxyp/cravatp*</a> on Docker Hub. This should take around 15 minutes to download.
 
 > In the meanwhile, feel free to take some time to understand the different components of this Docker command. You can also read up on CRAVAT-P background information in the next [section](#background-).
 
