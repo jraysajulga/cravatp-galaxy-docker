@@ -14,7 +14,7 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 - <a target="_blank" href="https://github.com/galaxyproject/galaxy/tree/release_17.09">Galaxy Instance (version 17.09)</a>
 - <a target="_blank" href="https://github.com/jraysajulga/cravatp_score_and_annotate">CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool</a>
 - <a target="_blank" href="https://github.com/jraysajulga/CRAVAT-Galaxy-Visualizer">CRAVAT-P Galaxy Viewer</a> (<a target="_blank" href="https://galaxyproject.org/develop/visualizations/">Galaxy Visualization Plugin</a>)
-- [Input files (i.e., VCF and proBED files)](####example-input-files)
+- [Input files (i.e., VCF and proBED files)](#example-input-files)
 - [Basic CRAVAT-P Workflow](#galaxy-workflow-)
 
 ---
