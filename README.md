@@ -101,13 +101,22 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 
 ### Galaxy Workflow [⤴](#table-of-contents)
 
-Galaxy workflows are tailored pipelines that promote reproducibility, ease-of-use, and preservation of complex analyses. Two workflows, both with differing complexities, are shown below. The simple workflow (top left panel) was used for the paper and Docker image to redirect focus to the downstream analysis i.e., CRAVAT-P's outputs and viewer. A fully-fledged workflow (bottom panel) is shown as an example of a highly complex workflow. The top right panel shows how workflows can automate parameter selection and offer additional options such as e-mail notification and output cleanup.
-
 ![viewer](./graphics/workflow.png)
 
+Galaxy workflows are tailored pipelines that promote reproducibility, ease-of-use, and preservation of complex analyses. Two workflows, both with differing complexities, are shown above. The simple workflow (top left panel) was used for the paper and Docker image to redirect focus to the downstream analysis i.e., CRAVAT-P's outputs and viewer. A fully-fledged workflow (bottom panel) is shown as an example of a highly complex workflow. The top right panel shows how workflows can automate parameter selection and offer additional options such as e-mail notification and output cleanup.
+
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
+
 ![viewer](./graphics/viewer.png)
 
+Galaxy uses JavaScript-based visualization plugins to interactively explore your data.
+
+- Panel A shows the actual viewer, with panels B - E as blown-up images for further detail.
+- A-i). Sidebar for showing additional information, mainly column visibility toggling. There are many columns to sift through from CRAVAT's annotation.
+- A-ii). An embedded webpage from the CRAVAT server termed their "Single Variants Page" feature.
+- B.) Leveraging the DataTable.js library, this table can be sorted and filtered. By default, it is sorted by p-values (based on the machine learning analysis i.e., VEST or CHASM) from most impactful to least. The selected box exhibits a peptide column that highlights the variant amino acid within a peptide hit. Since some cells may have large amounts of text, the full datum is shown in the display box at the top.
+- C.) CRAVAT uses Protein Diagrams to show lollipop mutations from your given protein variant. You can also choose TCGA (The Cancer Genome Atlas) tissue mutations. You can mouse over different parts to show domains, binding sites, and other regions of interest.
+- D.) CRAVAT uses the cytoscape.js library to display gene enrichment networks housed by the NDEx (Network Data Exchange) infrastructure. You can move elements around and examine different pathways.
 
 
 # CRAVAT-P Tutorial [⤴](#table-of-contents)
