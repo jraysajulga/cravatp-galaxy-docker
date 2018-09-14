@@ -39,9 +39,9 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 
 2.) Open your terminal. Run the following command:
 ```sh
-docker run -d -p 8080:80 jraysajulga/galaxy-cravatp-docker
+docker run -d -p 8080:80 galaxyp/cravatp
 ```
-The image will now download from the public repository [*jraysajulga/galaxy-cravatp-docker*](https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/) on Docker Hub. This should take around 15 minutes to download.
+The image will now download from the public repository <a target="_blank" href="https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/">*jraysajulga/galaxy-cravatp-docker*</a> on Docker Hub. This should take around 15 minutes to download.
 
 > In the meanwhile, feel free to take some time to understand the different components of this Docker command. You can also read up on CRAVAT-P background information in the next [section](#background-).
 
@@ -51,7 +51,7 @@ The image will now download from the public repository [*jraysajulga/galaxy-crav
 | run                               | Command      | Run a command in a new container                                |
 | -d, --detach                      | OPTION       | Run container in background and print container ID              |
 | -p, --publish                     | OPTION       | Publish a container's port(s) to the host                       |
-| jraysajulga/galaxy-cravatp-docker | IMAGE        | **jraysajulga's** *galaxy-cravatp-docker* image                 |
+| galaxyp/cravatp		    | IMAGE        | **galaxyp's** *cravatp* image                 |
 
 > *More documentation can be found at [Docker's documentation website](https://docs.docker.com/engine/reference/commandline/docker/)*.
 
