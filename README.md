@@ -95,7 +95,7 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 | chr12 | 6561014   | 6561056   | STGVILANDANAER | - |
 | chr12 | 110339607 | 110339637 | EWGSGSDILR     | + |
 | chr14 | 102083930 | 102083972 | GVVDSENLPLNISR | - |
-| chr19 | 17205300  | 17206022  | IQSHCSYTYGRMGEPGAEPGHFGVCVDSLTSDK | + |
+| chr19 | 17205300  | 17206022  | IQ...GR<span color="red">M</span>GEPG<span color="red">A</span>EP...SDK | + |
 | chr19 | 18856027  | 18856078  | EAIDSPVSFLVLHNQIR | + |
 
 
