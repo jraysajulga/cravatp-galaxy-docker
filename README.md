@@ -14,8 +14,8 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
 - <a target="_blank" href="https://github.com/galaxyproject/galaxy/tree/release_17.09">Galaxy Instance (version 17.09)</a>
 - <a target="_blank" href="https://github.com/jraysajulga/cravatp_score_and_annotate">CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool</a>
 - <a target="_blank" href="https://github.com/jraysajulga/CRAVAT-Galaxy-Visualizer">CRAVAT-P Galaxy Viewer</a> (<a target="_blank" href="https://galaxyproject.org/develop/visualizations/">Galaxy Visualization Plugin</a>)
-- Input files (i.e., VCF and proBED files)
-- Basic CRAVAT-P Workflow
+- [Input files (i.e., VCF and proBED files)](####example-input-files)
+- [Basic CRAVAT-P Workflow](#galaxy-workflow-)
 
 ---
 
@@ -74,6 +74,8 @@ Open **http://localhost:8080** and **follow the [CRAVAT-P tutorial](#cravat-p-tu
 
 CRAVAT-P is a proteomic extension of CRAVAT (http://cravat.us) developed for the Galaxy-P (http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations. 
 
+---
+
 ### Galaxy Tool [⤴](#table-of-contents)
 
 <img src="./graphics/tool.png" alt="tool" width="100%"/>
@@ -82,7 +84,7 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 
 #### Example input files
 
-**VCF (Variant Call Format)**
+*VCF (Variant Call Format)*
 
 | ID| Chr.| Position| Strand| Ref. base| Alt. base|
 | --- | --- | --- | --- | --- | --- |
@@ -93,7 +95,7 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 |VAR541| chr19| 17205973| +| T| C|
 |VAR542| chr19| 18856059| +| C| T|
 
-**ProBED (Proteomic Browser Extensible Data)**
+*ProBED (Proteomic Browser Extensible Data)*
 
 | Chr.| Start | End | Peptide | Strand |
 | --- | --- | --- | --- | --- |
@@ -103,12 +105,15 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 | chr19 | 17205327  | 17206022  | GR<b>M</b>GEPG<b>A</b>EPGHFGVCVDSLTSDK | + |
 | chr19 | 18856027  | 18856078  | EAIDSPVSFL<b>V</b>LHNQIR | + |
 
+---
 
 ### Galaxy Workflow [⤴](#table-of-contents)
 
 ![viewer](./graphics/workflow.png)
 
 Galaxy workflows are tailored pipelines that promote reproducibility, ease-of-use, and preservation of complex analyses. Two workflows, both with differing complexities, are shown above. The simple workflow (top left panel) was used for the paper and Docker image to redirect focus to the downstream analysis i.e., CRAVAT-P's outputs and viewer. A fully-fledged workflow (bottom panel) is shown as an example of a highly complex workflow. The top right panel shows how workflows can automate parameter selection and offer additional options such as e-mail notification and output cleanup.
+
+---
 
 ### Galaxy Viewer Plugin [⤴](#table-of-contents)
 
