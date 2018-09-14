@@ -32,8 +32,6 @@ A Docker image containing a fully-operational Galaxy instance with pre-installed
   * [3.) Access the viewer](#3-access-the-viewer-)
 
 ---
-## Who
-
 ### Galaxy-P
 - <a target="_blank" href="http://galaxyp.org">Homepage</a>
 - <a target="_blank" href="https://z.umn.edu/proteogenomicsgateway">Galaxy-Proteogenomics Server</a>
