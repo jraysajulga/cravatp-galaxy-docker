@@ -123,7 +123,7 @@ Galaxy uses JavaScript-based visualization plugins to interactively explore your
 
 <b>(D)</b> CRAVAT uses the cytoscape.js library to display gene enrichment networks housed by the NDEx (Network Data Exchange) infrastructure. You can move elements around and examine different pathways.
 
-<b>(E)</b> CRAVAT uses another project developed by the same lab (Professor Rachel Karchin's lab) called MuPIT (Mutation Position Imaging Toolbox) designed to show the location of single nucleotide variants (SNVs) on interactive three-dimensional protein structures. You can click on individual residues and adjust the display options.
+<b>(E)</b> CRAVAT uses another project developed by the same lab (<a target="_blank" href="http://karchinlab.org">Professor Rachel Karchin's lab of John Hopkin's University</a>) called <a target="_blank" href="http://mupit.icm.jhu.edu/MuPIT_Interactive/">MuPIT (Mutation Position Imaging Toolbox)</a> designed to show the location of single nucleotide variants (SNVs) on interactive three-dimensional protein structures. You can click on individual residues and adjust the display options.
 
 ---
 
