@@ -92,11 +92,11 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 
 | Chr.| Start | End | Peptide | Strand |
 | --- | --- | --- | --- | --- |
-| chr12 | 6561014   | 6561056   | STGVILANDANAER | - |
-| chr12 | 110339607 | 110339637 | EWGSGSDILR     | + |
-| chr14 | 102083930 | 102083972 | GVVDSENLPLNISR | - |
-| chr19 | 17205327  | 17206022  | GR<span color="red">M</span>GEPG<span color="red">A</span>EPGHFGVCVDSLTSDK | + |
-| chr19 | 18856027  | 18856078  | EAIDSPVSFLVLHNQIR | + |
+| chr12 | 6561014   | 6561056   | <b>S</b>TGVILANDANAER | - |
+| chr12 | 110339607 | 110339637 | EWGSGSD<b>I</b>LR     | + |
+| chr14 | 102083930 | 102083972 | GVVDSE<b>N</b>LPLNISR | - |
+| chr19 | 17205327  | 17206022  | GR<b>M</b>GEPG<b>A</b>EPGHFGVCVDSLTSDK | + |
+| chr19 | 18856027  | 18856078  | EAIDSPVSFL<b>V</b>LHNQIR | + |
 
 
 ### Galaxy Workflow [⤴](#table-of-contents)
