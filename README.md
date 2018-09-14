@@ -101,7 +101,7 @@ The figure above shows the Galaxy tool developed for submitting jobs to the CRAV
 
 ### Galaxy Workflow [⤴](#table-of-contents)
 
-Galaxy workflows are tailored pipelines that promote reproducibility, ease-of-use, and preservation of complex analyses.
+Galaxy workflows are tailored pipelines that promote reproducibility, ease-of-use, and preservation of complex analyses. Two workflows, both with differing complexities, are shown below. The simple workflow (top left panel) was used for the paper and Docker image to redirect focus to the downstream analysis i.e., CRAVAT-P's outputs and viewer. A full-fledged workflow (bottom panel) is shown as an example of a highly complex workflow.
 
 ![viewer](./graphics/workflow.png)
 
